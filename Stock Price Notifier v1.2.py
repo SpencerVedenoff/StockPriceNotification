@@ -5,7 +5,7 @@ import smtplib
 # Gets data
 from alpha_vantage.timeseries import TimeSeries
 
-ts = TimeSeries(key='7CMNQJZTBJHKBFJZ', output_format='pandas')
+ts = TimeSeries(key='Key Goes Here', output_format='pandas')
 
 data, meta_data = ts.get_intraday(symbol='NVDA',interval='60min', outputsize='full')
 
